@@ -1,5 +1,5 @@
-FROM alpine
-MAINTAINER Aleksandr Lykhouzov <lykhouzov@gmail.com>
+FROM alpine:edge
+MAINTAINER James Verbunk <verbunk@gmail.com>
 
 # Install Nginx
 RUN apk update && apk add nginx \
